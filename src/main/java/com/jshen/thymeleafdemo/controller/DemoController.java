@@ -12,6 +12,6 @@ public class DemoController {
     public String sayHello(Model theModel){
         theModel.addAttribute("theDate", new java.util.Date());
 
-        return "Hello World";
+        return "helloworld"; // this string must be same as the file in templates (helloworld.html), and inside helloworld.html, it will take theDate and show it on the screen
     }
 }
